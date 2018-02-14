@@ -31,7 +31,7 @@ def load_data_and_labels(positive_data_file, negative_data_file):
     Loads MR polarity data from files, splits the data into words and generates labels.
     Returns split sentences and labels.
     """
-    df = pd.read_csv("/Users/anshumansahoo/Documents/GitHub/kaggle/toxic_comments/train.csv", index_col=None, header=0)
+    df = pd.read_csv("kaggle/train.csv", index_col=None, header=0)
 
     # Load data from files
     # Split by words
